@@ -1,41 +1,19 @@
-# Prerequisites
-*.d
+# This file specifies files / folders which will be ignored by git.
+#
+# If you want to add one of these files to git, either remove the matching line from this
+# file or force add the file/folder into git using `git -f add [path]`
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# IDE / text editor profile files
+.idea
+.vs
+.vscode/settings.json
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
+# Possible C++ build output directories and files
+out
+build
+cmake-build*
+*.dll
 *.pdb
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Skyrim archive files
+*.bsa
