@@ -1,0 +1,12 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: AlchemicalKnowledge.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: 'megapatato'
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
